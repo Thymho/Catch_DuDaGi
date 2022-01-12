@@ -47,7 +47,8 @@ public class Hole : MonoBehaviour
             if (!boom)
             {
                 GM.score += 100;
-            }
+            } else {
+            GM.score -= 100;
         }
     }
 
